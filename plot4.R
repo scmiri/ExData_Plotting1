@@ -3,10 +3,9 @@
 ## 1. Global Active Power" as function of time                                                                          ##
 ## 2. Voltage as function of time                                                                                       ##
 ## 3. Energy sub metering as function of time                                                                           ##
-## 4. Global rective power as function of time                                                                           ##
-##                                                                                                                      ##   
+## 4. Global rective power as function of time                                                                          ##   
 ## To run the script:                                                                                                   ##
-## 1. Download household_power_consumption.txt and copy to your working direcoty                                        ##                                                       ##           
+## 1. Download household_power_consumption.txt and copy to your working direcoty                                        ##         
 ## 2. Modify the setwd() line to point to your working directory                                                        ##
 ##                                                                                                                      ## 
 ##########################################################################################################################
