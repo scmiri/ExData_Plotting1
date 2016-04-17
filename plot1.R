@@ -2,7 +2,7 @@
 ## Creates an histogram describing the frequency of Global Active Power and saves is to a PNG file                      ##
 ##                                                                                                                      ##   
 ## To run the script:                                                                                                   ##
-## 1. Download household_power_consumption.txt and copy to your working direcoty                                        ##
+## 1. Download household_power_consumption.txt and copy to your working direcoty                                        ##                                                       ##           
 ## 2. Modify the setwd() line to point to your working directory                                                        ##
 ##                                                                                                                      ## 
 ##########################################################################################################################
@@ -21,7 +21,7 @@ close(fh)
 #open png device
 png("plot1.png", width = 480, height = 480, units = "px", bg = "white")
 #set margin
-par(mar= c(4, 5, 4, 1))
+par(mar= c(5, 5, 4, 1))
 #create the Histogram 
 hist(data$Global_active_power, 
      main = "Global Active Power", 
